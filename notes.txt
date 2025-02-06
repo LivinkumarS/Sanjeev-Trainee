@@ -1,0 +1,34 @@
+Website---> the collection of webpages liked together.
+
+webpages ---> HTML, CSS, JS.
+
+HTML---> Hyper Text Markup Language.
+
+Hyper Text(link)--->The text that takes you to another destiny(link)
+
+Markup--->Formatting and structuring.
+
+HTML is used to feed the contents into webpages. then used to structure and format those contents.
+
+first html file should be named as "index"
+
+HTML file extension --> .html
+
+Tags
+_________
+
+sybolic representaion used to structure and format contents inside HTML.
+
+<> opening tag 
+
+// content
+
+</> co=losing tag.
+
+
+Boiler Plate---> Basic Structure HTML.
+
+html---> head, body
+
+head---> contains metadata(the details about the webpage), links and stylesheet.
+
