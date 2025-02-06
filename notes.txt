@@ -23,7 +23,7 @@ sybolic representaion used to structure and format contents inside HTML.
 
 // content
 
-</> co=losing tag.
+</> closing tag.
 
 
 Boiler Plate---> Basic Structure HTML.
