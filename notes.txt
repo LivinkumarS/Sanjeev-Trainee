@@ -14,6 +14,13 @@ first html file should be named as "index"
 
 HTML file extension --> .html
 
+File Path 
+________________________
+
+sibiling ---> ./
+parent---> ../
+child---> /
+
 Tags
 _________
 
@@ -25,6 +32,12 @@ sybolic representaion used to structure and format contents inside HTML.
 
 </> closing tag.
 
+Types of Tags 
+________________________
+
+No void tags---> <> </>
+void tags ---> <>
+
 
 Boiler Plate---> Basic Structure HTML.
 
@@ -32,3 +45,43 @@ html---> head, body
 
 head---> contains metadata(the details about the webpage), links and stylesheet.
 
+body---> Contents that visible to users.
+
+Commenting in HTML
+---------------------
+
+<!--  -->
+
+
+Attributes
+-----------
+
+Properties of tag.
+
+
+
+Types of Tags.
+---------------
+
+
+Heading Tags---> h1,h2,h3...h6.(to add titles and sub heading)
+Paragraph Tag---> p(to seperate the paragraphs)
+Unordered List---> list without numbering.(ul--> represents the list, li--->list element)
+Ordered List---> list with numbering.(ol--> represents the list, li--->list element).
+
+
+
+Anchor Tag.(Links)
+________________________
+
+a--->to create links.
+attributes--> href(hyper reference)(actual Link), target="_blank"(new tab), draggable.
+
+Image tag 
+_________________________
+
+adding images to webpages.
+
+img(void tags) <img>
+
+attributes---> src(link to the image), width(px=0.26mm), alt
