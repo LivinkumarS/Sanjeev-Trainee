@@ -85,3 +85,53 @@ adding images to webpages.
 img(void tags) <img>
 
 attributes---> src(link to the image), width(px=0.26mm), alt
+
+
+Table
+________________________
+
+
+tags --> table, thead---> table head, tbody----> Table body, tr---> table row, th---> table head element, td---> table body data
+
+table attribute---> border.
+
+
+break and horizontal line
+__________________________
+
+br---> breake the current line, creates new line.
+hr---> creates horizontal line
+
+Forms
+_________
+
+used to collect information(data) from users.
+
+form--> input tags
+
+attributes label--> for---> equal to id attribute in the equivalent input tag.
+------------
+            input---> name, id, value, type, required
+
+Types of inputs
+-------------------
+
+1)text
+2)password
+3) submit
+4)email
+5) number
+6) date
+7) radio
+8) checkbox
+
+
+div---> creates a box, used to wrap content inside it, structuring.
+
+
+inspect a webpage chrome ofeers  a tool called "developer tool"
+
+ctrl+shift+i----> shortcut.
+
+
+
