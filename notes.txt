@@ -166,3 +166,9 @@ Types of Selectors
 ________________________
 
 Tagname Selector---> the tagname is used as the selector.
+
+Classname Selector---> .Classname, the Classname can be repeated among multiple tags. A single tag can hold multiple classname.
+
+Id Selector----> #idname. this cannot be repeated.a single tag can hold only one tag name.
+
+tagname<class<id
