@@ -172,3 +172,28 @@ Classname Selector---> .Classname, the Classname can be repeated among multiple 
 Id Selector----> #idname. this cannot be repeated.a single tag can hold only one tag name.
 
 tagname<class<id
+
+
+CSS Properties 
+________________________
+
+Color Properties 
+----------------------
+
+background-color---> used to change the bg color to an element.
+color---> used to change the text color.
+
+defining color---> name of the color, hex code. #4585f6, RGB-rgb(num1,num2,num3). 0-255.
+
+
+Text Properties 
+-----------------
+font-size---> we can  control the size of the text.(keywords, numeric values)
+
+font-weight--> used to control the thickness.(keywords, numeric values)
+
+font-style
+
+font-family
+
+text-align---> start, center, end, justify

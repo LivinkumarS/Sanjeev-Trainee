@@ -1,25 +1,14 @@
-/* .anything{
-    background-color: aqua;
+h1{
+    background-color: rgb(45,100,77);
+    text-align: end;
 }
+p{
+    font-size: 50px; 
+    font-weight: bolder;
 
-.some{
-    color: red;
+    font-style: italic;
+    font-family: cursive;
+
+
+    text-align: justify;
 }
-
-#para1{
-    background-color: blue;
-}
- */
-
- p{
-    background-color: red;
- }
-
- .anything{
-    background-color: green;
- }
-
- #para2{
-    background-color: aqua;
- }
- 
