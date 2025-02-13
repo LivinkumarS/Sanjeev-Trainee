@@ -135,3 +135,34 @@ ctrl+shift+i----> shortcut.
 
 
 
+Website---->frontend and backend.
+  
+frontend---> html, css, js, react.
+backend---> python, django, mongoDB.
+
+
+
+CSS---> Cascading Style Sheet.
+_________________________________
+
+used to style the elements in HTML.
+
+Syntax:
+-----------
+
+selector{
+    property: value;
+}
+
+Inserting To HTML(3 types)
+________________________________
+
+Internal---> head--->style
+external---> head--->link, .css
+Inline--->  within the element
+
+
+Types of Selectors
+________________________
+
+Tagname Selector---> the tagname is used as the selector.
