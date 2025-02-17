@@ -212,7 +212,7 @@ the box model consists of four main parts:
 bg-col---> content, padding
 
 
-1) content--> the actual content of the element (eg: text, image, etc...)(width,height)
+1) content--> the actual content of the element (eg: text, image, etc...)(width,height) height--->auto
 
 2)padding--> added space around the content inside the border(between main-content and outer-border).
 
