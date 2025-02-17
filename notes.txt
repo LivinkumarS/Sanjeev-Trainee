@@ -197,3 +197,33 @@ font-style
 font-family
 
 text-align---> start, center, end, justify
+
+
+
+Box Modelling
+________________________
+
+it refers to how elements are structured and sized on webpage.
+every HTML element is considered as a rectangularbox.
+
+the box model consists of four main parts:
+-------------------------------------------
+
+bg-col---> content, padding
+
+
+1) content--> the actual content of the element (eg: text, image, etc...)(width,height)
+
+2)padding--> added space around the content inside the border(between main-content and outer-border).
+
+3)Border--> a surrounding edge around padding.
+
+4)margin---> space outside the border( used to seperate the element from other elements.)(auto);
+
+
+5) Box-sizing----> content-box, border-box
+
+ content-box---> total width---> content width + padding + border
+ border-box---> total width----> content width
+
+6) Border-radius---> used to make curvy edges.
