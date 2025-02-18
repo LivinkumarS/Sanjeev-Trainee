@@ -165,14 +165,27 @@ Inline--->  within the element
 Types of Selectors
 ________________________
 
+*<tagname<class<id<Descendant and direct Descendant.
+
 Tagname Selector---> the tagname is used as the selector.
 
 Classname Selector---> .Classname, the Classname can be repeated among multiple tags. A single tag can hold multiple classname.
 
 Id Selector----> #idname. this cannot be repeated.a single tag can hold only one tag name.
 
-tagname<class<id
+Descendant Selector ----> selects all elements inside a specific parent, regardless of how deep they are.
 
+syntax: selector1 selector2{}
+
+Direct Descendat--> Selects all the elements which are the direct child of a specific parent.
+
+syntax selector1>selector2{}
+
+Universal Selector(*)---. Simply selects all the tags.(font-family, remove padding, margin, border, box-sizing)
+
+Multiple Selection--->Selects Multiple elements at once (,)
+
+Pseudo-selector:
 
 CSS Properties 
 ________________________
@@ -227,3 +240,4 @@ bg-col---> content, padding
  border-box---> total width----> content width
 
 6) Border-radius---> used to make curvy edges.
+
