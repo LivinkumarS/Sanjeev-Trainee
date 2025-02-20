@@ -1,29 +1,51 @@
-/* body p{
-    color: red;
-}
-body>p{
-    color: red;
+/* .parent {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
 } */
 
-
-/* *{
-    padding: 0;
-    margin: 0;
-    border: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+/* .parent:hover{
+    background-color: aqua;
 } */
 
-/* *{
-    color: red;
-}
+/* input:focus{
+    background-color: red;
+    height: 100px;
+    width: 50%;
+    
+} */
 
-h1{
+/* .parent>p:first-child{
+    color: aqua;
+} */
+/* 
+.parent>p:last-child{
+    color: aqua;
+} */
+
+/* .parent>p:nth-child(even){
+    background-color: red;
+} */
+
+/* .parent>p::first-letter{
+    font-size: larger;
+    font-weight: bolder;
+    color: aqua;
+} */
+
+/* .parent>p::first-line{
+    font-size: larger;
+    font-weight: bolder;
     color: aqua;
 } */
 
 
-body>p , .parent>p{
-    color:red;
-    background-color:aqua;
-}
+/* .parent>p:first-child::before{
+    content: "Hello Good Evening";
+    background-color: red;
+} */
 
+.parent>p:first-child::after{
+    content: "Hello Good Evening";
+    background-color: red;
+}

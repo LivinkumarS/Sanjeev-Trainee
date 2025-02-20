@@ -185,7 +185,22 @@ Universal Selector(*)---. Simply selects all the tags.(font-family, remove paddi
 
 Multiple Selection--->Selects Multiple elements at once (,)
 
-Pseudo-selector:
+Pseudo-selector
+------------------
+it is used to select elements based on its stste, position.
+
+Psudo-class(:) based on the elements state.
+1) hover--> the element will get selected when hover over it.
+2)focus--> when the input tag is focused
+3)first-child---> used to select only the first child
+4) last-child---> used to select the last child
+5)nth-child()---> used to select the child according to the position(odd,even)
+
+psudo-elements(::) used to select specific part.
+1) first-letter---> used to select only the first letter
+2) first-line---> used to select only the first line
+3)before---> used to add and select content at the begenning of an element
+4)after---> used to add and select content at the end of an element
 
 CSS Properties 
 ________________________
