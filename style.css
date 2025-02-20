@@ -1,51 +1,18 @@
-/* .parent {
-  width: 300px;
-  height: 300px;
-  border: 1px solid black;
-} */
+.box{
+    position: relative;
 
-/* .parent:hover{
-    background-color: aqua;
-} */
+    top: 200px;
+    left: 200px;
 
-/* input:focus{
-    background-color: red;
+    width: 100px;
     height: 100px;
-    width: 50%;
-    
-} */
+    background-color: black;
+    margin: 10px;
+}
 
-/* .parent>p:first-child{
-    color: aqua;
-} */
-/* 
-.parent>p:last-child{
-    color: aqua;
-} */
-
-/* .parent>p:nth-child(even){
-    background-color: red;
-} */
-
-/* .parent>p::first-letter{
-    font-size: larger;
-    font-weight: bolder;
-    color: aqua;
-} */
-
-/* .parent>p::first-line{
-    font-size: larger;
-    font-weight: bolder;
-    color: aqua;
-} */
-
-
-/* .parent>p:first-child::before{
-    content: "Hello Good Evening";
-    background-color: red;
-} */
-
-.parent>p:first-child::after{
-    content: "Hello Good Evening";
-    background-color: red;
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 10px;
 }

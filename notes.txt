@@ -256,3 +256,29 @@ bg-col---> content, padding
 
 6) Border-radius---> used to make curvy edges.
 
+
+
+Positioning
+________________________
+
+{
+    position: value;
+}
+
+these properties control hoow elements are positioned in the webpage.
+
+1)static
+2)relative
+3)absolute
+4)fixed
+5)sticky
+
+Static 
+---------
+the elements appear in document flow (top to bottom).
+default position of an element.
+
+Relative 
+-----------
+the element moves according to its original position.
+(top, bottom, right, left). work flow will never affected.
