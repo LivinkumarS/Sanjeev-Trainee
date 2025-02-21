@@ -317,3 +317,14 @@ Relative
 -----------
 the element moves according to its original position.
 (top, bottom, right, left). work flow will never affected.
+
+%---> relative to parents
+
+Absolute 
+-----------
+the element moves relative to the nearest positioned ancestor.
+positioned ancestor---> the ancestor which have positioning property(relative, absolute, fixed)
+
+absolute positioning will change the document flow.(the absolute positioned element will get removed from the document flow. other elements will occupy the space)
+
+%---> relative to NPA
