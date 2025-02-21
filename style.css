@@ -1,18 +1,28 @@
-.box{
-    position: relative;
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 
-    top: 200px;
-    left: 200px;
-
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    margin: 10px;
 }
 
-.box1{
-    width: 100px;
-    height: 100px;
+.parent{
+    font-size: 1.5rem; /*32px*/
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+
+.child{
+    font-size: 1.5em; /*150% 32px*/
     background-color: aqua;
-    margin: 10px;
+    width: 50%; /**50% of 500%  250px**/ 
+    height: 75%; /* 75% of 500% 1000px*/
+
+    padding: 10%; /*10% of 500 50px*/
+}
+
+p{
+    font-size: 1.5rem; /*150% of Root Font Size*/
 }

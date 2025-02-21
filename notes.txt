@@ -217,13 +217,9 @@ defining color---> name of the color, hex code. #4585f6, RGB-rgb(num1,num2,num3)
 Text Properties 
 -----------------
 font-size---> we can  control the size of the text.(keywords, numeric values)
-
 font-weight--> used to control the thickness.(keywords, numeric values)
-
 font-style
-
 font-family
-
 text-align---> start, center, end, justify
 
 
@@ -256,6 +252,45 @@ bg-col---> content, padding
 
 6) Border-radius---> used to make curvy edges.
 
+
+CSS Units
+________________________
+px=0.26mm, cm, inch
+
+Percentage(%)
+--------------
+defines size relative to the parent.(width, height, padding and margin)
+(width--->parents width)
+(height--->parents height)
+(padding--->parents width)
+
+rem(Relative to Root Font)
+---------------------------
+
+root font---> font size of <html> (default: 16px)
+1rem---> 100% of root font size.
+1.5rem---> 150% of RFS.
+0.7--> 70% of RFS
+
+em(Relative to Parents Font Size)
+------------------------------------
+
+1em---> 100% of parent's font size.
+1.5em---> 150%.
+
+
+Viewport Width(relative to the sreen's width)(width)
+------------------------------------------------------
+
+100vw---> 100% of screen's width
+101vw---> 101% of '' '' ''
+
+
+Viewport Height(relative to the screen's height)(width)
+------------------------------------------------------
+
+100vh---> 100% of screen's height
+101vh---> 101% of '' '' ''
 
 
 Positioning
