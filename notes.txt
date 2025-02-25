@@ -328,3 +328,20 @@ positioned ancestor---> the ancestor which have positioning property(relative, a
 absolute positioning will change the document flow.(the absolute positioned element will get removed from the document flow. other elements will occupy the space)
 
 %---> relative to NPA
+
+Fixed Positioning
+-------------------
+the element will stays in the same place forever, even the page is scrolled.
+
+the element will be positioned relative to the screen.
+
+it will change document flow
+
+Sticky Positioning 
+---------------------
+hybrid of relative and fixed.
+
+it acts like relative until it reaches a specified scroll position, then it behaves like fixed.
+
+before reaching scroll position--> no change in document flow.
+after reaching---> it will change doc flow and will act as a fixed

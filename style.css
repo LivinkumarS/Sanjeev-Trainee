@@ -6,6 +6,10 @@
     position: relative;
 }
 
+body{
+    position: relative;
+}
+
 .parent{
     width: 500px;
     height: 500px;
@@ -34,4 +38,16 @@
     width: 100px;
     height:100px;
     background-color: green;
+}
+
+
+.fixed-element{
+    
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    position: sticky;
+    top: 0;
+
 }
