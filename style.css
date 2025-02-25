@@ -1,17 +1,37 @@
-.box{
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
-
-
-    transform: scale(.7);
-}
-
 .parent{
     width: 500px;
     height: 500px;
-
     border: 1px solid gray;
     margin: 50px auto;
     position: relative;
+}
+
+.box{
+    width: 100px;
+    height:100px;
+    background-color: aqua;
+}
+
+.box1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box2{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.box3{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.box4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
