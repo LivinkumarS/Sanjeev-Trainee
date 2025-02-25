@@ -1,53 +1,17 @@
-.grand-parent{
-    border: 1px solid black;
-    padding: 20px;
-    margin: 100px auto;
-    width: fit-content;
-    position: relative;
-}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
 
-body{
-    position: relative;
+
+    transform: scale(.7);
 }
 
 .parent{
     width: 500px;
     height: 500px;
-    border: 1px solid black;
+
+    border: 1px solid gray;
+    margin: 50px auto;
     position: relative;
-}
-
-.child1{
-    position: absolute; 
-
-    bottom: 50%; /*50% of NPA's height*/
-    right: 50%; /*50% of NPA's width*/
-
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
-}
-
-.child2{
-    width: 200px;
-    height:200px;
-    background-color: red;
-}
-
-.child3{
-    width: 100px;
-    height:100px;
-    background-color: green;
-}
-
-
-.fixed-element{
-    
-    width: 100px;
-    height: 100px;
-    background-color: red;
-
-    position: sticky;
-    top: 0;
-
 }

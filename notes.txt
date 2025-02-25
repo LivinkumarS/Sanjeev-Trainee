@@ -345,3 +345,19 @@ it acts like relative until it reaches a specified scroll position, then it beha
 
 before reaching scroll position--> no change in document flow.
 after reaching---> it will change doc flow and will act as a fixed
+
+
+Transform Properties 
+_________________________
+
+used to apply various transformations to elements.
+
+1) rotate---> used to rotate an element.
+    transform: rotate(2deg);
+2) translate---> to move the element, translateX(), translateY(),translate(x,y)
+3) scale---> to scale the size of the element. scaleX, scaleY, scale. 0,1,2...
+
+0---> 0%
+1--->100%
+1.2--->120%
+2--->200%
