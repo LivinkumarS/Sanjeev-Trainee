@@ -361,3 +361,28 @@ used to apply various transformations to elements.
 1--->100%
 1.2--->120%
 2--->200%
+
+Display Properties
+________________________
+
+it controls how the element is displayed in the screen.
+
+Block-elements --> will take full available width as default. always starts in new line. assign height and width
+ex: div, h1-h6, p...!
+
+Inline-Elements --> it will take as much width as its content.
+can not have width and height properties. it will not create new line
+ex: span, a.
+
+
+Properties
+--------------
+
+block---> it will change any element into a block level.
+inline---> to inline
+inline-block---> combination of both. can have width and height. will not start new line.
+
+
+
+Flex
+_________
