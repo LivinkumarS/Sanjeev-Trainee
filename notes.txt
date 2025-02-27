@@ -386,3 +386,22 @@ inline-block---> combination of both. can have width and height. will not start 
 
 Flex
 _________
+
+used to align the items in a container.
+
+flex direction-Row---> Row Axis will be main axis, column axis will be cross axis
+flex direction-Column---> Column Axis will be main axis, row axis will be cross axis
+
+display:flex;
+flex-direction: row, column; (row)
+align-items:center, start, end, stretch;(stretch) used to align the items through the cross axis.
+
+justify-content:start, end, center, space-between, space-around, space-evenly ; used to align items in main axis.
+
+gap:; seperates the elements
+
+
+flex-wrap,
+
+child prop:
+flex,---> to assign the width ratio to the child.
