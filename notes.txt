@@ -405,3 +405,5 @@ flex-wrap,
 
 child prop:
 flex,---> to assign the width ratio to the child.
+
+flex-wrap--->is used to control whether the flex items should wrap onto multiple lines when they exceed the containers width(nowrap)
