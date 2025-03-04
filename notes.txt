@@ -407,3 +407,34 @@ child prop:
 flex,---> to assign the width ratio to the child.
 
 flex-wrap--->is used to control whether the flex items should wrap onto multiple lines when they exceed the containers width(nowrap)
+
+
+Grid
+________
+
+2-dimensional layout in css that provedies control over rows and colimns.
+
+display:grid;
+
+Creating Template Rows and Columns
+------------------------------------
+
+grid-template-columns: px values,  fr  ;  
+
+grid-template-rows:   ;
+
+excess conteiners will occupy the corresponding column. but have only content height
+
+to apply common height for all these excess childern,
+
+grid-auto-rows:;
+
+gap-->
+
+
+to specify column and row for a grid child 
+--------------------------------------------
+
+grid-column: start/end ;
+grid-row: start/end ;
+grid-area: rs/cs/re/ce;

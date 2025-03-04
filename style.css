@@ -5,100 +5,44 @@
     border: 0;
 }
 
-body{
-    width: 100vw;
-    height: 100vh;
-    background-color: #2a2d57;
-    position: relative;
-}
-
 .parent{
-    width: 750px;
-    height: 370px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-
-    display: flex;
+    border: 1px solid black;
+    display: grid;
     gap: 10px;
-    align-items: center;
-    justify-content: center;
-}
+    margin: 20px;
 
-.parent>*{
-    background-color: #fff;
-    height: 100%;
-}
+    grid-template-columns: 1fr 1fr 1fr;  /*1:1:1  from total width*/
+    grid-template-rows: 200px 200px 100px;
 
-.parent>.child1{
-    flex: 15;
-    background-color: #6ebf50;
+
+    grid-auto-rows: 100px;
 }
 
 
 
-.parent>.child2{
-    flex: 25;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: stretch;
-    justify-content: center;
-
-}
-
-.parent>.child2>*{
-    flex: 1;
-}
-
-.parent>.child2>.grand-child1{
-    background-color: #6ebf50;
-}
-
-.parent>.child2>.grand-child2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.parent>.child2>.grand-child2>*{
-    height: 100%;
-    flex: 1;
+.child1{
+    grid-column: 1/3;
+    grid-row: 1/2;
     background-color: aqua;
 }
 
-.parent>.child2>.grand-child2>.great-grand-child1{
-    background-color: #fab32f;
+.child2{
+    grid-column: 3/4;
+    grid-row: 1/-1;
+
+    background-color: red;
 }
 
-.parent>.child2>.grand-child2>.great-grand-child2{
-    background-color: #ed3437;
+.child3{
+    grid-area: 2/1/3/3;
+
+    background-color: blueviolet;
 }
 
-.parent>.child2>.grand-child3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-.parent>.child2>.grand-child3>*{
-    height: 100%;
-    flex: 1;
-    background-color: aqua;
+.child4{
+     background-color: aquamarine;
 }
 
-.parent>.child2>.grand-child3>.great-grand-child1{
-    background-color: #ed3437;
+.child5{
+     background-color: yellow;
 }
-
-.parent>.child2>.grand-child3>.great-grand-child2{
-    background-color: #fab32f;
-}
-
-
-.parent>.child3{
-    flex: 15;
-}
-
