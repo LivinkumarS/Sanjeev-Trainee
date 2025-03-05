@@ -438,3 +438,10 @@ to specify column and row for a grid child
 grid-column: start/end ;
 grid-row: start/end ;
 grid-area: rs/cs/re/ce;
+
+
+Named Layout 
+---------------
+
+grid-template-areas:  names....;
+grid-ared: ;
