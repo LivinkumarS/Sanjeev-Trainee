@@ -444,4 +444,14 @@ Named Layout
 ---------------
 
 grid-template-areas:  names....;
-grid-ared: ;
+grid-ared:;
+
+
+Media Queries
+--------------
+
+@media (condition){
+
+}
+
+conditions---> max-width, min-width
