@@ -72,6 +72,7 @@
   padding: 0 20px;
   height: 90vh;
   gap: 30px;
+  position: relative;
 }
 
 .section1>.img-cont{
@@ -130,4 +131,100 @@
   color: white;
   padding: 10px;
   border-radius: 20px;
+}
+
+.section1>.girl-image{
+  width: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  position: absolute;
+
+  right: 30px;
+  bottom: 30px;
+}
+
+/* Section 2 */
+
+.section2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 50px 0;
+
+  position: relative;
+}
+
+.section2>.box{
+  width: 330px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.section2>.box>svg{
+  width: 40px;
+  fill: #0962de;
+}
+
+.section2>.box>h2{
+  color: #0962de;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.section2>.box>p{
+  color: gray;
+  
+}
+
+.section2>.girl-image{
+  width: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  position: absolute;
+
+  right: 30px;
+  bottom: 100px;
+}
+
+
+/* Media Query */
+
+@media (max-width:900px) {
+  .navbar{
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+}
+
+@media (max-width:770px) {
+  .section1{
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+  .section1>.img-cont>img{
+    width: 50%;
+  }
+}
+
+@media (max-width:500px) {
+  .section1>.text-cont>p{
+    width:100%;
+  }
+  .navbar>.nav-links{
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:400px) {
+  .section2{
+    padding: 20px;
+  }
+  .section2>.box{
+    width: 100%;
+  }
 }
