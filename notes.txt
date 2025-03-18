@@ -455,3 +455,64 @@ Media Queries
 }
 
 conditions---> max-width, min-width
+
+
+
+JavaScript 
+________________________
+
+JavaScript is a scripting language. used to make web pages interactive.
+versatile--> capable of doing multiple.
+
+Dynamically Typed Language --> no need to specify the datatype.
+
+React, angular...!
+
+JS---> Runtime(browser(edge, chrome, firefox))
+
+Syntax (set of rules that the code follows)
+____________________________________________
+
+every command should be ended with ";"
+// commented out
+
+
+
+Attach JS file:
+________________________
+
+1) script tag
+2) creating JS file
+
+
+
+To printing out something
+---------------------------
+console.log("Hello world")
+
+DataTypes
+______________
+
+Number--> ...-1,-2,0,1,2,3...,  1.23234,0.8788.
+String--> "", '', ``. su=ingle char or collection of char.
+Boolean--> true, false
+undefined,
+null,
+Nan,
+
+function,
+object,
+array
+
+finding type of a variable---> typeOf var
+
+
+Create Variables
+________________________
+
+3 keywords
+----------
+
+let--> can be changed(muted)
+var--> can be changed(muted)
+const--> cannot be changed(muted)
