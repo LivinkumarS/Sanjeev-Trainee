@@ -516,3 +516,73 @@ ________________________
 let--> can be changed(muted)
 var--> can be changed(muted)
 const--> cannot be changed(muted)
+
+
+Number 
+______________
+
+integer or floating-point numbers.
+
+methods
+-----------
+1) tofixed()----> Rounds off the integer to particular decimal point
+2) parseInt(str)---> converts a string into integer
+3) parseFloat(str)---> convert a string into float
+
+String
+______________
+
+single or collection of charectors.
+
+1)length--> finds length of a string.
+2)toUpperCase()
+3)toLowerrCase()
+
+Boolean
+______________
+
+true
+false.
+
+Boolean()
+
+Truthy and Falsy Values ---> condition---> otherthan boolean values(5435,"")
+
+Truthy values--> numbers otherthan 0, strings(not empty string), array, objects
+falsy values---> 0, null, undefined, Nan, ""
+
+
+Operations
+______________
+ Arithmetic Operation 
+ ------------------------
+
+ Addition---> + 
+ Subtraction---> -
+ Multiplication---> *
+ Division----> /
+ Mopdulus(reminder)---> %
+ Increment---> ++
+ Decrement---> --
+
+ Assignment Operator
+ -------------------------
+
+ Assign =
+ Add +=
+ Sub -=
+ Mul *=
+ Div /=
+ Mod %=
+
+
+ Comparison or Relational Operator
+ ---------------------------------
+
+ equal to ==
+ not equal to !=
+ strict equal to ===
+ greater than >
+ less than <
+ greater than or equal to >=
+ less than or equal to <=
