@@ -586,3 +586,12 @@ ______________
  less than <
  greater than or equal to >=
  less than or equal to <=
+
+ Logical Operators
+ ----------------------
+ combines two boolean values and result a Boolean value.
+
+ AND--> (&&)--> both the values must be true.
+ OR--> (||) --> any one value must be true.
+ X-OR---> (^) --> if both are same (false). or else (true)
+ NOT--> (!) --> operates with onnly one boolean. (reversing)
