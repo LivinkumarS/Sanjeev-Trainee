@@ -552,6 +552,34 @@ Truthy values--> numbers otherthan 0, strings(not empty string), array, objects
 falsy values---> 0, null, undefined, Nan, ""
 
 
+Function 
+______________
+
+reusable block of code stored in a variable.
+invoking---> calling the function. functionName()
+
+Named Functions---> function(key word)
+syntax:
+------
+function func1(){
+    //code
+}
+
+Expression---> like creating a variable
+syntax
+-------
+const func2= ()=>{
+    // code
+}
+
+Arrow Function.(pending)
+
+
+Passing Arguements
+________________________
+
+inside the braces "()" we can pass values 
+
 Operations
 ______________
  Arithmetic Operation 

@@ -1,17 +1,22 @@
-// Logical Operators
+// Function
 
-let val1 = true;
-let val2 = false;
+// Named Functions
 
-// console.log(val1 && val2);
-// console.log(val1 || val2);
-// console.log(val1 ^ val2);
-// console.log(!val2);
+function func1() {
+  console.log("Task 1");
+  console.log("Task 2");
+  console.log("Task 3");
+}
 
-// console.log(!val1 || !(val1 ^ val2));
+// Expression
 
-console.log(
-  !val1 && ((val1 && val2) || (!val1 && val2 ^ val1) || !(val1 || val2))
-);
+const func2 = () => {
+  console.log("Task 4");
+  console.log("Task 5");
+  console.log("Task 6");
+};
 
-// BODMAS---> Brackets, Of, Division, Multip..,Add, Sub
+func1();
+func2();
+
+
