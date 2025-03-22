@@ -580,6 +580,11 @@ ________________________
 
 inside the braces "()" we can pass values 
 
+
+Return Functions 
+________________________
+keyword---> return ( used to stop the function and return some values )
+
 Operations
 ______________
  Arithmetic Operation 
