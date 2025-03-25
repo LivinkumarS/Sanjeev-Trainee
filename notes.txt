@@ -684,4 +684,32 @@ ______________
 
 
 
- 
+Conditional clauses
+________________________
+
+helps to control the program flow based on conditions.
+
+1)if statement
+
+this will get executed if the condition is true.
+
+syntax
+--------
+if(condition){
+    //block
+}
+
+2) else statement.
+
+this will get executed if the condition in if block is false
+
+if(){
+
+}else{
+
+}
+
+3) else if 
+
+this will get executed if the condition in if block is false and the condition in it's own block is true
+
