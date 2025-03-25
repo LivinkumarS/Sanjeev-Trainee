@@ -572,7 +572,13 @@ const func2= ()=>{
     // code
 }
 
-Arrow Function.(pending)
+Arrow Function.
+
+this can be created without name. for single used
+syntax:
+()=>{
+    //code
+}
 
 
 Passing Arguements
@@ -584,6 +590,53 @@ inside the braces "()" we can pass values
 Return Functions 
 ________________________
 keyword---> return ( used to stop the function and return some values )
+
+
+Arrays
+______________
+used to store multiple values in a single variable.
+we can access individual values by their index number
+
+[213,34,23,23,"wdhb",true].
+
+Objects 
+______________
+
+this also stores multiple DataTypes. but in a key-value pair.
+we can access individual values by their keys
+syntax 
+---------
+{
+    key1:value1,
+    key2:value2,
+    .
+    .
+    .
+}
+
+2 ways to access values using their keys.
+-------------------------------------------
+1) objName["key"]
+2) bbjName.key 
+
+
+Undefined.
+_____________
+
+a variable that has been declaredbut not assigned a value.
+
+let a;
+
+Null 
+________
+represents an intentional absence.
+
+let a=null;
+
+NaN(Not a Number)
+________________________
+ invalid numbers.
+
 
 Operations
 ______________
@@ -628,3 +681,7 @@ ______________
  OR--> (||) --> any one value must be true.
  X-OR---> (^) --> if both are same (false). or else (true)
  NOT--> (!) --> operates with onnly one boolean. (reversing)
+
+
+
+ 

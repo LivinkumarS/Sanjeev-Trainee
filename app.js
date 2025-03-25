@@ -1,26 +1,56 @@
-// function obj1(name1, name2) {
-//   console.log(name1);
-//   console.log("In meeting with");
-//   console.log(name2);
-// }
+// Arrays
 
-// obj1("Sanjeev", "Livin");
-// obj1("Vijay", "Ajith");
+// let arr = [
+//   1,
+//   2,
+//   3,
+//   4,
+//   5,
+//   6,
+//   7,
+//   8,
+//   9,
+//   10,
+//   () => {
+//     console.log("Sanjeev");
+//     return "Livin";
+//   },
+// ];
 
-// const add = (num1, num2) => {
-//   console.log(num1 - num2);
+// let ans = arr[10]();
+
+// console.log(ans);
+
+// let person1 = {
+//   fname: "vijay",
+//   lname: "kumar",
+//   age: 24,
+//   role: "dev",
+//   isMarried: false,
+//   printHello: () => {
+//     console.log("Hello World");
+//   },
 // };
+// console.log(person1["lname"]);
+// console.log(person1.lname);
 
-// add(262, 42323);
+// person1.printHello();
 
-function returningFunction(val) {
-  console.log("Something");
-  console.log("Something");
-  console.log("Something");
-  console.log("Something");
-  return val * 2;
-}
 
-let a = returningFunction(40);
+// undefined
 
-console.log(a);
+// let a = [1, 2, 3, 4, 5, 6, 7, 8];
+
+// console.log(a[8]);
+
+
+// Null 
+
+// let a=null;
+// let b;
+// console.log(a);
+// console.log(b);
+
+// NaN(Not A Number)
+// console.log(parseInt("sanjeev"));
+
