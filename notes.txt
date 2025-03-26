@@ -713,3 +713,60 @@ if(){
 
 this will get executed if the condition in if block is false and the condition in it's own block is true
 
+
+
+Loops:
+________
+
+used to iterate over data and execute block of code multiple times.
+
+For Loops
+---------
+
+used when the number iteration is known.
+
+syntax 
+------
+
+for(init;condition;inc){
+    //code
+}
+
+
+while
+--------
+
+used when the number of iteration is not known.
+
+syntax
+---------
+
+while(condition){
+    //code
+}
+
+
+For of 
+________
+
+used to iterate over an object or an array.
+
+syntax
+--------
+
+for(let val of name(arr,obj)){
+    //code
+}
+
+for in 
+________
+
+used to iterate ober the key values of an object.
+
+
+syntax
+--------
+
+for(let key in name(arr,obj)){
+    //code
+}
