@@ -770,3 +770,40 @@ syntax
 for(let key in name(arr,obj)){
     //code
 }
+
+
+Map, Filter and Reduce:
+_________________________________
+
+Map 
+-----
+which is used to perform an operation with each elements in an array. return a new array with the new values.
+
+syntax:
+-------
+
+arr.map((ele,index)=>{
+    return operation
+})
+
+Filter 
+------
+it is used to filter an array according to the boolean expression we provide.
+
+syntax
+-------
+
+arr.filter((ele,index)=>{
+    return (boolean exp.)
+})
+
+Reduce 
+--------
+used to perform  single operation in an array and reduce  it to a single value.
+
+syntax
+-------
+
+arr.reduce((acc,ele,ind)=>{
+    return value
+},intVal)

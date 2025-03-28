@@ -1,45 +1,34 @@
-// for (let i = 0; i < 10; i++) {
-//   console.log("hello"+i);
-// }
+// Map
 
-// let str = "Vijay";
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; //+2
 
-// console.log(str[0]);
-// console.log(str[1]);
-// console.log(str[2]);
-// console.log(str[3]);
-// console.log(str[4]);
+// [3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
-// for (let i = 0; i < str.length; i++) {
-//   console.log(str[i]);
-// }
+// [3,4,5,6,7,8,9,10,11,12];
 
-// let inp = prompt("Enter word:");
+// let ans = arr.map((ele, index) => {
+//   return ele + 2;
+// });
 
-// let num = 13;
+// console.log(ans);
 
-// while (true) {
-//   let guess = prompt("Guess the number:"); //will always return string
-//   if (parseInt(guess) === num) {
-//     console.log("You won");
-//     break;
-//   } else {
-//     console.log("Try again");
-//   }
-// }
+// Filter
 
-// let arr = [1, 2, 3, 4, 7, 5, 6, 5, 67, 7, 7656, 54, 43, 65];
+// [];
 
-// for (let element of arr) {
-//   console.log(element+1);
-// }
+// let ans = arr.filter((ele, ind) => {
+//   return ele > 5 && ele < 8;
+// });
 
-let obj1 = {
-  name: "hari",
-  role: "dev",
-  salary: 25000,
-};
+// console.log(ans);
 
-for (let keyVal in obj1) {
-  console.log(obj1[keyVal]);
-}
+// Reduce
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// let ans = arr.reduce((acc, ele, ind) => {
+//   console.log(acc);
+//   return acc * ele;
+// }, 1);
+
+// console.log("Final: ", ans);
