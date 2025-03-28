@@ -807,3 +807,10 @@ syntax
 arr.reduce((acc,ele,ind)=>{
     return value
 },intVal)
+
+
+Ternary Operator:
+-----------------
+executes command according to the boolean expression.
+
+expression ? command1(true) : command2(false)
