@@ -814,3 +814,35 @@ Ternary Operator:
 executes command according to the boolean expression.
 
 expression ? command1(true) : command2(false)
+
+
+DOM (Document Object Model)
+-----------------------------
+
+html{}----- head{}        body{}
+
+it is a programming interface for web documents. it represents the structure of a web page as a tree of objects so that programming languages like JS can interact eith it.
+
+
+Key points
+------------
+
+when a web page loads, the browser creates a DOM of the page.
+
+HTML----> tree structure
+
+create, add, remove, update using DOM.
+
+
+DOM Multiplication
+--------------------
+
+Selecting:
+-------------
+
+document.getElementById("id name")
+document.getElementByClassName("class name") HTML Collection
+document.getElementByTagame("tag name") HTML Collection
+
+document.querySelector("")
+document.querySelectorAll("") HTML Collection
