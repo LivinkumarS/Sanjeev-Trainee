@@ -846,3 +846,50 @@ document.getElementByTagame("tag name") HTML Collection
 
 document.querySelector("")
 document.querySelectorAll("") HTML Collection
+
+
+Changing Contents:
+------------------
+text---> access(element.textContent), to change(element.textContent="text")
+
+HTML--> access(element.innerHTML)
+
+
+Attributes---> access attribute(getAttribute("att name"))
+            change or create(setAttribute("att name","value"))
+            remove(removeAttribute("att name"))
+
+
+Styling an element 
+---------------------
+
+element.style.property="value"
+
+property name---> camel case
+ex: backgroundColor
+
+uppercase--> HDFUDGF
+lowercase---> nbjhgh
+titlecase---> The Vintage Film
+camelcase---> theVintageFilm
+
+class manipulation
+--------------------
+
+to get class list(element.classList)
+to add classname(element.classList.add("name"))
+to remove (element.classList.remove("name"))
+
+toggle-> (element.classList.toggle("name"))
+
+
+DOM traversing
+----------------
+
+to select parent--> parentElement
+
+to select all children as a list ---> children
+to select first child ---> firstElementChild
+to select last child ---> lastElementChild
+to select next sibling---> nextElementSibling
+to select previous sibling---> previousElementSibling
