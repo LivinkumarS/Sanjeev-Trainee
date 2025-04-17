@@ -1,11 +1,19 @@
-const h1 = document.querySelector("h1");
+let ul = document.querySelector("ol");
+let inp = document.querySelector("input");
+let addBtn = document.querySelector("#add");
 
-// document.querySelector("button").addEventListener("click", (event) => {
-//   console.log(event.target);
-//   h1.textContent = parseInt(h1.textContent) + 1;
-// });
+addBtn.addEventListener("click", () => {
+  let task = inp.value;
+  let text = task + " <button onclick='delItem(event)'>del</button>";
+  let element = document.createElement("li");
+  element.innerHTML = text;
 
-function changeNum(event) {
-  console.log(event.target);
-  h1.textContent = parseInt(h1.textContent) + 1;
+  ul.appendChild(element);
+
+  inp.value = "";
+});
+
+
+function delItem(event){
+    event.target.parentElement.remove();
 }
