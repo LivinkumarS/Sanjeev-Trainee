@@ -48,6 +48,14 @@ let a = document.querySelector("a");
 // console.log(h1.nextElementSibling);
 // console.log(h1.previousElementSibling);
 
+// console.log(document.querySelector("html").lastElementChild.firstElementChild.nextElementSibling);
 
+// let div = document.createElement("div");
+// div.textContent = "Hello Guys from div";
+// div.classList.add("div");
 
-console.log(document.querySelector("html").lastElementChild.firstElementChild.nextElementSibling);
+// document.querySelector("body").appendChild(div);
+
+// document.querySelector("a").remove()
+
+// div.remove();

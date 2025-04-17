@@ -893,3 +893,18 @@ to select first child ---> firstElementChild
 to select last child ---> lastElementChild
 to select next sibling---> nextElementSibling
 to select previous sibling---> previousElementSibling
+
+
+Create, Appending and Removing
+-----------------------------------
+
+document.createElement("tag name")
+
+element.appendChild(elements name)
+
+element.remove()
+
+
+Event Listening
+-----------------
+
