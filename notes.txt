@@ -23,3 +23,25 @@ step 1: npm create vite@latest
 step 2:cd "directory name"
 step 3: npm install
 step 4: npm run dev.
+
+
+JSX--->JS+XML
+---------------
+It lets you write HTML code inside JS.
+JSX makes it easy to describe the UI Structure.
+
+Rules:
+------
+attributes must be in camelCase.
+ex: className="".....
+
+JS>HTML--->()
+HTML>JS--->{}
+
+
+
+components and props
+---------------------
+
+Componets---> A JS function that returns JSX(Single parent HTML element).
+Props and PPassing Data through Props
