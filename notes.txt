@@ -45,3 +45,17 @@ components and props
 
 Componets---> A JS function that returns JSX(Single parent HTML element).
 Props and PPassing Data through Props
+
+State and Hooks
+-----------
+state is an object (or value) that stores information about the component's current stage.
+
+state change--->component rerender
+
+state life cycle---> to maintain state life cycle we need hooks in functional componants.
+
+Hooks:
+---------
+
+1)useState--> create and update states
+create--> const [state,updateFunc]=useState(initialVal)
