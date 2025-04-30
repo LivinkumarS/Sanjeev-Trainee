@@ -1,23 +1,32 @@
 import React, { useState } from "react";
 import "./App.css";
-import Card from "./Card";
 
 export default function App() {
-  const [number, setNumber] = useState(0);
+  const [name, setName] = useState("");
 
+  console.log(1);
+  
 
-  const changeNum = () => {
-    setNumber((prev) => {
-      return prev + 1;
-    });
-  };
+  // function printVal(e) {
+  //   // console.log(e.target.value); // the element
+  //   setName(e.target.value);
+  // }
 
   return (
     <div>
-      <Card Name="Sanjeev" Role="Dev" Number={number} />
-      <Card Name="Naveen" Role="Dev" Number={number} />
-      <Card Name="Livin" Role="Dev" Number={number} />
-      <button onClick={changeNum}>Clickme</button>
+      <input
+        type="text"
+        onChange={(e) => {
+          setName(e.target.value);
+        }}
+      />
+      <button
+        onClick={() => {
+          console.log(name);
+        }}
+      >
+        Print Name
+      </button>
     </div>
   );
 }

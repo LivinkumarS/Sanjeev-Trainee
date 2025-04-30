@@ -59,3 +59,22 @@ Hooks:
 
 1)useState--> create and update states
 create--> const [state,updateFunc]=useState(initialVal)
+
+
+
+Event Handling In React.
+--------------------------
+camelCase for event names
+you should only mention the function name(do not invoke it)
+
+if you want to give parameters, then use arrow 
+ex: onClick={() => {
+          changeNum(100);
+        }}
+
+
+Conditional Rendering
+-----------------------
+Rendering components according to the condition.
+
+way1--> AND operator---> condition && (component)
