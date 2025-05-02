@@ -78,3 +78,4 @@ Conditional Rendering
 Rendering components according to the condition.
 
 way1--> AND operator---> condition && (component)
+way2--> Ternary---> condition ? (comp1) : (comp2)
