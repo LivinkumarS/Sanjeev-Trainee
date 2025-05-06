@@ -1,66 +1,51 @@
 import React, { useState } from "react";
-import "./App.css";
 
 export default function App() {
-  const [formData, setFormData] = useState({
-    name: "",
-    age: "",
-    email: "",
-    phone: "",
-  });
+  const [favFruits, setFavFruits] = useState(["mango", "melon", "banana"]);
+  const [value, setValue] = useState("");
 
-
-  const handleChange = (e) => {
-    setFormData((prev) => {
-      return {
-        ...prev,
-        [e.target.id]: e.target.value,
-      };
-    });
+  const handleDel = (ind) => {
+    setFavFruits(((prev)=>{
+      return prev.filter((ele,index)=>{
+        return ind!==index
+      })
+    }))
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-          
-
-    console.log("Form submitted");
-    console.log(formData);
+  const handleAdd=()=>{
     
+    setValue("")
   }
 
   return (
     <div>
-      <h1>Welcome to the Sanjeev Training App</h1>
-      <h2>Enter your details</h2>
+      <input
+        type="text"
+        value={value}
+        onChange={(e) => {
+          setValue(e.target.value);
+        }}
+      />
 
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          value={formData.name}
-          id="name"
-          onChange={handleChange}
-        />
-        <input
-          type="number"
-          value={formData.age}
-          id="age"
-          onChange={handleChange}
-        />
-        <input
-          type="email"
-          value={formData.email}
-          id="email"
-          onChange={handleChange}
-        />
-        <input
-          type="number"
-          value={formData.phone}
-          id="phone"
-          onChange={handleChange}
-        />
+      <button>add</button>
 
-        <button>Submit</button>
-      </form>
+      <h2>My Fav Fruits List</h2>
+      <ul>
+        {favFruits.map((ele, ind) => {
+          return (
+            <li key={ind}>
+              {ele}
+              <button
+                onClick={() => {
+                  handleDel(ind);
+                }}
+              >
+                del
+              </button>
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 }
