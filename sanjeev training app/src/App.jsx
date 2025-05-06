@@ -1,49 +1,66 @@
 import React, { useState } from "react";
+import "./App.css";
 
 export default function App() {
-  const [favFruits, setFavFruits] = useState(["mango", "melon", "banana"]);
-  const [value, setValue] = useState("");
+  const [formData, setFormData] = useState({
+    name: "",
+    age: "",
+    email: "",
+    phone: "",
+  });
 
-  const handleDel = (ind) => {
-    setFavFruits(((prev)=>{
-      return prev.filter((ele,index)=>{
-        return ind!==index
-      })
-    }))
+
+  const handleChange = (e) => {
+    setFormData((prev) => {
+      return {
+        ...prev,
+        [e.target.id]: e.target.value,
+      };
+    });
   };
 
-  const handleAdd=()=>{
+  const handleSubmit = (e) => {
+    e.preventDefault();
+          
+
+    console.log("Form submitted");
+    console.log(formData);
     
   }
 
   return (
     <div>
-      <input
-        type="text"
-        onChange={(e) => {
-          setValue(e.target.value);
-        }}
-      />
+      <h1>Welcome to the Sanjeev Training App</h1>
+      <h2>Enter your details</h2>
 
-      <button>add</button>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          value={formData.name}
+          id="name"
+          onChange={handleChange}
+        />
+        <input
+          type="number"
+          value={formData.age}
+          id="age"
+          onChange={handleChange}
+        />
+        <input
+          type="email"
+          value={formData.email}
+          id="email"
+          onChange={handleChange}
+        />
+        <input
+          type="number"
+          value={formData.phone}
+          id="phone"
+          onChange={handleChange}
+        />
 
-      <h2>My Fav Fruits List</h2>
-      <ul>
-        {favFruits.map((ele, ind) => {
-          return (
-            <li key={ind}>
-              {ele}
-              <button
-                onClick={() => {
-                  handleDel(ind);
-                }}
-              >
-                del
-              </button>
-            </li>
-          );
-        })}
-      </ul>
+        <button>Submit</button>
+      </form>
     </div>
   );
 }

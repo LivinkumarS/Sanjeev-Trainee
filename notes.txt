@@ -85,3 +85,11 @@ List Rendering
 ---------------
 it refers to how lists are rendered in react.
 
+
+Contrlled inputs
+----------------
+
+normal HTML inputs---> to change---> (to type into in). to access--->(e.tartget.value)
+(uncontrolled inputs)(should not use it).
+
+controlled inputs---> the value of that input will be stored in a state. 
