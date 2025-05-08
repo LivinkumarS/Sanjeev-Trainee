@@ -93,3 +93,21 @@ normal HTML inputs---> to change---> (to type into in). to access--->(e.tartget.
 (uncontrolled inputs)(should not use it).
 
 controlled inputs---> the value of that input will be stored in a state. 
+
+Asyc Function
+-----------------
+
+Handling----> 1).then.catch  2) async/await
+
+UseEffect
+---------
+This is used to create sideeffects in Functional Components.
+useEffect(()=>{},[])
+
+
+[]===> when the component mounts.
+
+empty===> executes in every re-rendersa and mount
+
+[dependency]==> runs in mount and every time the dependency changes
+

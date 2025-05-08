@@ -1,9 +1,35 @@
-let lis=[1,2,3,4,5,6,7,8,9,10]
+// Asyc function
 
-// [2,3,4,5,6,7,8,9,10,11]
+// console.log("Step1");
 
-let ans=lis.map((ele,ind)=>{
-  return ele+1
-})
+// let word="hello"
 
-console.log(ans);
+// setTimeout(()=>{
+//   word="world"
+// },5000)
+
+// console.log(word);
+
+// Handling Asychronous function
+
+// fetch("https://jsonplaceholder.typicode.com/posts")
+//   .then((result) => {
+//     result.json().then((data) => {
+//       console.log(data);
+//     });
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
+
+// Async Await function
+
+const fetchData = async () => {
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const final = await res.json();
+  console.log(final);
+};
+
+fetchData();
+
+console.log("step 2");
