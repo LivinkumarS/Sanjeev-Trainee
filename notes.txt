@@ -115,3 +115,8 @@ empty===> executes in every re-rendersa and mount
 Lifting State 
 ---------------
 when two are more components need to share a same state, that state has to be lifted to the common parent.
+
+
+Property Drilling 
+-------------------
+passing a data or a state frpom parent component to a deeply nested child component.

@@ -1,17 +1,17 @@
 import React from "react";
 
-export default function Child2(props) {
+export default function GreatGrandChild(props) {
   return (
     <div>
-      <h3>Count:{props.state}</h3>
+      <h4>Count:{props.count}</h4>
       <button
         onClick={() => {
           props.setCount((prev) => ++prev);
         }}
       >
-        Change State
+        change
       </button>
-      Child2
+      GreatGrandChild
     </div>
   );
 }
