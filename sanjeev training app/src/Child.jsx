@@ -1,10 +1,10 @@
 import React from 'react'
 import GrandChild from './GrandChild'
 
-export default function Child(props) {
+export default function Child() {
   return (
     <div>Child
-        <GrandChild count={props.count} setCount={props.setCount} />
+        <GrandChild/>
     </div>
   )
 }

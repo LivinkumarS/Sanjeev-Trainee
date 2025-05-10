@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
+import { countContext } from "./App";
 
-export default function GreatGrandChild(props) {
+export default function GreatGrandChild() {
+  const { count, setCount } = useContext(countContext);
+
   return (
     <div>
-      <h4>Count:{props.count}</h4>
+      <h4>Count:{count}</h4>
       <button
         onClick={() => {
-          props.setCount((prev) => ++prev);
+          setCount((prev) => ++prev);
         }}
       >
         change

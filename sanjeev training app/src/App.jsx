@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { createContext, useState } from "react";
 import "./App.css";
 import Child from "./Child";
+
+export const countContext = createContext();
 
 export default function App() {
   const [count, setCount] = useState(0);
@@ -8,7 +10,9 @@ export default function App() {
     <div className="parent">
       <h4>Count:{count}</h4>
       Parent
-      <Child count={count} setCount={setCount} />
+      <countContext.Provider value={{ count, setCount }}>
+        <Child />
+      </countContext.Provider>
     </div>
   );
 }

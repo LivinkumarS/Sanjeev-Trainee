@@ -120,3 +120,12 @@ when two are more components need to share a same state, that state has to be li
 Property Drilling 
 -------------------
 passing a data or a state frpom parent component to a deeply nested child component.
+when you are sharing a small piece of data.
+
+
+useContext Hook 
+-------------------
+It helps to avoid property Drilling by  providing global-like-state that any component in the tree can access directly.
+
+step1: creating Context. [createContext()]
+step2: context provider 
