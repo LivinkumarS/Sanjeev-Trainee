@@ -111,3 +111,7 @@ empty===> executes in every re-rendersa and mount
 
 [dependency]==> runs in mount and every time the dependency changes
 
+
+Lifting State 
+---------------
+when two are more components need to share a same state, that state has to be lifted to the common parent.
