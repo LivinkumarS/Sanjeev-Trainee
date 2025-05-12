@@ -129,3 +129,14 @@ It helps to avoid property Drilling by  providing global-like-state that any com
 
 step1: creating Context. [createContext()]
 step2: context provider 
+
+
+Router DOM
+-----------
+powerful react library which enables you to do navigation and routing in SPA like react
+
+step 1: npm install react-router-dom
+step 2: wrap the app by <BrowserRouter>
+step 3: <Routes></Routes> and creating <Route path="" elememnt={} />
+
+Navigation---> Link tag from react-router-dom.
